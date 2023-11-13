@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+div{
+    color: #ffff;
+    padding: 50px;
+}
+
+body{
+    background-color: rgba(255, 7, 7, 0);
+}
+
+h2{
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    color: rgb(0, 204, 211);
+    padding: 10px;
+    background-color: rgb(30, 255, 0);
+    border-radius: 30px;
+}
+
+p{
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+::-webkit-scrollbar{
+    width: 15px;
+} 
+
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #bb00bb, #bb1d36, #eb1d56);    
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, #00ff37, #eb1436, #bbff00);
+}
+
+
+

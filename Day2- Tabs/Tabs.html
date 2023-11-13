@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tabs.css">
+    <title>Tabs Using HTML and CSS</title>
+</head>
+<body>
+    <div class="tabs">
+        <input type="radio" name="tabs" id="tabone" checked="checked">
+        <label for="tabone">First Tab</label>
+         <div class="tab">
+            <h2>First Tab Content</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum beatae qui eos quas. Optio, repellendus quibusdam numquam asperiores, quis error aspernatur alias commodi, nobis perspiciatis quam! Architecto tempore corrupti aliquam atque distinctio? Alias corporis officia mollitia cum quo temporibus necessitatibus esse exercitationem, porro ducimus illum ratione sapiente maiores, eius unde!</p>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui accusamus nesciunt eligendi animi alias dolor deleniti? Iusto quo magni aliquid?</p>
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, tenetur necessitatibus exercitationem quibusdam eaque architecto!</p>
+         </div>
+
+
+         <input type="radio" name="tabs" id="tabtwo">
+        <label for="tabone">Second Tab</label>
+        <div class="tab">
+            <h2>First Tab Content</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum beatae qui eos quas. Optio, repellendus quibusdam numquam asperiores, quis error aspernatur alias commodi, nobis perspiciatis quam! Architecto tempore corrupti aliquam atque distinctio? Alias corporis officia mollitia cum quo temporibus necessitatibus esse exercitationem, porro ducimus illum ratione sapiente maiores, eius unde!</p>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui accusamus nesciunt eligendi animi alias dolor deleniti? Iusto quo magni aliquid?</p>
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, tenetur necessitatibus exercitationem quibusdam eaque architecto!</p>
+         </div>
+
+
+         <input type="radio" name="tabs" id="tabthird">
+        <label for="tabone">Third Tab</label>
+        <div class="tab">
+            <h2>Third Tab Content</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum beatae qui eos quas. Optio, repellendus quibusdam numquam asperiores, quis error aspernatur alias commodi, nobis perspiciatis quam! Architecto tempore corrupti aliquam atque distinctio? Alias corporis officia mollitia cum quo temporibus necessitatibus esse exercitationem, porro ducimus illum ratione sapiente maiores, eius unde!</p>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui accusamus nesciunt eligendi animi alias dolor deleniti? Iusto quo magni aliquid?</p>
+            <h5>Lorem, ipsum dolor.</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, tenetur necessitatibus exercitationem quibusdam eaque architecto!</p>
+         </div>
+    </div>
+</body>
+
+
+<script>
+    let t = document.getElementsByTagName("input")
+    t.onclick = () => {
+        t.style.display = "block"
+        t.style.fontfamily = "cursive"
+    }
+</script>
+</html>
